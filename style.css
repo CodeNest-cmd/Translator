@@ -1,0 +1,67 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(41, 41, 245);
+    color: white;
+    text-align: center;
+    margin: 0%;
+    padding: 30px;
+
+}
+.translating-box
+{
+    background-color: white;
+    color: black;
+    padding: 20px;
+    max-width: 600px;
+    width: 90%;
+    margin: auto;
+    border-radius: 12px;
+   
+}
+
+.translating-box .boxes
+{
+    display: flex;
+}
+textarea
+{
+    width: 100%;
+    height: 200px;
+    margin: 10px;
+    padding:10px;
+    border-radius: 10px;
+    border: 5px solid  rgb(41, 41, 245);
+}
+.options
+{
+    margin: 10px;
+}
+select
+{
+padding: 6px;
+margin: 0 10px;
+border: none;
+
+}
+button
+{
+width: 100%;
+padding:10px 20px;
+background-color: rgb(41, 41, 245);
+color: white;
+border: none;
+border-radius: 6px;
+font-weight: bold;
+cursor: pointer;
+
+}
+footer
+{
+margin-top: 10px;
+}
+button:hover
+{
+    background-color:  rgb(3, 3, 114);
+    
+    
+}
